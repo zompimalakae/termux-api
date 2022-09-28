@@ -64,9 +64,9 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.biometric:biometric:1.2.0-alpha03'
-    implementation 'androidx.media:media:1.4.3'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.biometric:biometric:1.2.0-alpha04'
+    implementation 'androidx.media:media:1.6.0'
 
     implementation 'com.termux.termux-app:termux-shared:7f7d889dd0'
     // Use if below libraries are published locally by termux-app with `./gradlew publishReleasePublicationToMavenLocal` and used with `mavenLocal()`.
