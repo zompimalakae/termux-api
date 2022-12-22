@@ -9,9 +9,12 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    rebase-strategy: "disabled"
     ignore:
       - dependency-name: "androidx.biometric:biometric"
+
   - package-ecosystem: "github-actions"
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    rebase-strategy: "disabled"
